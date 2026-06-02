@@ -302,7 +302,7 @@ StepfunProvider <- R6::R6Class(
 #' @description
 #' Factory function to create a Stepfun provider.
 #'
-#' @eval generate_model_docs("stepfun")
+#' @eval ascii_model_docs("stepfun")
 #'
 #' @param api_key Stepfun API key. Defaults to STEPFUN_API_KEY env var.
 #' @param base_url Base URL for API calls. Defaults to https://api.stepfun.com/v1.

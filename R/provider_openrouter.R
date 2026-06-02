@@ -112,7 +112,7 @@ OpenRouterProvider <- R6::R6Class(
 #' @description
 #' Factory function to create an OpenRouter provider.
 #'
-#' @eval generate_model_docs("openrouter")
+#' @eval ascii_model_docs("openrouter")
 #'
 #' @param api_key OpenRouter API key. Defaults to OPENROUTER_API_KEY env var.
 #' @param base_url Base URL for API calls. Defaults to https://openrouter.ai/api/v1.

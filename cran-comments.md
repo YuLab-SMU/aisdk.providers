@@ -4,13 +4,14 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 2 notes
+0 errors | 0 warnings | 1 note
 
-The two local notes are environmental:
+* The note is the standard "New submission" note: this is the first CRAN
+  submission of `aisdk.providers`.
 
-* CRAN incoming and URL checks could not run because the local check environment
-  could not resolve external hosts.
-* The local check environment could not verify the current time.
+(Local checks may additionally emit environmental notes, e.g. "unable to
+verify current time" or an HTML Tidy version note; these are specific to the
+local machine and not package issues.)
 
 ## Downstream dependencies
 
@@ -18,4 +19,7 @@ There are currently no downstream dependencies for this package.
 
 ## Comments
 
-This is the first CRAN submission of `aisdk.providers`.
+This is the first CRAN submission of `aisdk.providers`. It is a companion
+package for `aisdk` (now on CRAN) and builds on that package's exported
+extension API. All heavier dependencies are declared under Suggests and used
+conditionally.

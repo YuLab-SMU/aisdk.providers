@@ -55,7 +55,7 @@ Factory function to create a Volcengine provider using the Ark API.
 \item \strong{doubao-pro-32k-character-240528}: Model: doubao-pro-32k-character-240528
 \item \strong{doubao-pro-4k-browsing-240524}: Model: doubao-pro-4k-browsing-240524
 \item \strong{doubao-pro-32k-functioncall-240515}: Model: doubao-pro-32k-functioncall-240515
-\item \strong{doubao-pro-4k-functioncall-240615}: 豆包专业版函数调用模型4K版本，适合快速响应的函数调用场景。 (Tools, Structured) | ctx: 4k
+\item \strong{doubao-pro-4k-functioncall-240615}: Doubao Pro function-calling model (4K); suited to low-latency function-calling. (Tools, Structured) | ctx: 4k
 \item \emph{... and 95 more models. Use \code{list_models("volcengine")} to see all.}
 }
 }

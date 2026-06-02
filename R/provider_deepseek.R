@@ -221,7 +221,7 @@ DeepSeekProvider <- R6::R6Class(
 #' @description
 #' Factory function to create a DeepSeek provider.
 #'
-#' @eval generate_model_docs("deepseek")
+#' @eval ascii_model_docs("deepseek")
 #'
 #' @details
 #' DeepSeek supports classic aliases plus newer model families such as DeepSeek V4.

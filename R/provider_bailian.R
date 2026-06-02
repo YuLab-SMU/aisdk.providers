@@ -99,7 +99,7 @@ BailianProvider <- R6::R6Class(
 #' @description
 #' Factory function to create an Alibaba Cloud Bailian provider using the DashScope API.
 #'
-#' @eval generate_model_docs("bailian")
+#' @eval ascii_model_docs("bailian")
 #'
 #' @param api_key DashScope API key. Defaults to DASHSCOPE_API_KEY env var.
 #' @param base_url Base URL for API calls. Defaults to https://dashscope.aliyuncs.com/compatible-mode/v1.

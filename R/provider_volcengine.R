@@ -253,7 +253,7 @@ VolcengineProvider <- R6::R6Class(
 #' @description
 #' Factory function to create a Volcengine provider using the Ark API.
 #'
-#' @eval generate_model_docs("volcengine")
+#' @eval ascii_model_docs("volcengine")
 #'
 #' @section API Formats:
 #' Volcengine supports both Chat Completions API and Responses API:

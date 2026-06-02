@@ -342,7 +342,7 @@ KimiCodeAnthropicProvider <- R6::R6Class(
 #' `platform = "coding"` for Kimi Code membership API
 #' (`https://api.kimi.com/coding/v1`). The two platforms use separate API keys.
 #'
-#' @eval generate_model_docs("moonshot")
+#' @eval ascii_model_docs("moonshot")
 #'
 #' @param api_key API key. Defaults to MOONSHOT_API_KEY for the Kimi Open
 #'   Platform, or KIMI_API_KEY / KIMI_CODE_API_KEY for Kimi Code.
