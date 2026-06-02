@@ -38,6 +38,17 @@ A XAIProvider object.
 \description{
 Factory function to create an xAI provider.
 }
+\section{Supported Models}{
+
+\itemize{
+\item \strong{grok-4}: xAI frontier model with always-on reasoning and multi-agent architecture. (Reasoning, Vision, Tools, Structured, Search) | ctx: 256k
+\item \strong{grok-4.1-fast}: High-throughput production model with 2M context. Best default for most workloads. (Reasoning, Vision, Tools, Structured, Search) | ctx: 2000k
+\item \strong{grok-3}: Legacy enterprise-grade model optimized for data extraction and summarization. (Reasoning, Vision, Tools, Structured, Search) | ctx: 131k
+\item \strong{grok-3-mini}: Lightweight low-latency option with reasoning capabilities. (Reasoning, Tools, Structured, Search) | ctx: 131k
+\item \strong{grok-2-image}: Image generation model via xAI API. (Image-Out) | ctx: 33k
+}
+}
+
 \examples{
 \donttest{
 if (interactive()) {

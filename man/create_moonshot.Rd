@@ -48,6 +48,19 @@ for the pay-as-you-go Kimi Open Platform (\verb{https://api.moonshot.cn/v1}) and
 \code{platform = "coding"} for Kimi Code membership API
 (\verb{https://api.kimi.com/coding/v1}). The two platforms use separate API keys.
 }
+\section{Supported Models}{
+
+\itemize{
+\item \strong{kimi-k2.6}: Kimi flagship multimodal model for agentic coding, long-context reasoning, and general agent tasks (Reasoning, Vision, Tools, Structured) | ctx: 262k
+\item \strong{kimi-k2.5}: Kimi K2.5 multimodal model for agent, coding, vision, thinking, and conversation tasks (Reasoning, Vision, Tools, Structured) | ctx: 262k
+\item \strong{kimi-k2-0905-preview}: Kimi K2 preview model with enhanced agentic coding, frontend, and context understanding capabilities (Reasoning, Tools, Structured) | ctx: 262k
+\item \strong{kimi-for-coding}: Stable Kimi Code membership model ID for coding agents; backend maps it to the latest coding model (Reasoning, Vision, Tools, Structured) | ctx: 262k
+\item \strong{moonshot-v1-8k}: Moonshot V1 text generation model with 8k context (Tools, Structured) | ctx: 8k
+\item \strong{moonshot-v1-32k}: Moonshot V1 text generation model with 32k context (Tools, Structured) | ctx: 33k
+\item \strong{moonshot-v1-128k}: Moonshot V1 text generation model with 128k context (Tools, Structured) | ctx: 131k
+}
+}
+
 \examples{
 \donttest{
 if (interactive()) {

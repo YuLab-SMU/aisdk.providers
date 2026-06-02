@@ -14,9 +14,14 @@ so they are resolvable through the `provider:model` syntax (e.g.
 ## Installation
 
 ```r
-# install.packages("remotes")
-remotes::install_github("YuLab-SMU/aisdk")            # core
-remotes::install_github("YuLab-SMU/aisdk.providers")  # this package
+install.packages("aisdk.providers")
+```
+
+You can install the development version from GitHub with:
+
+```r
+# install.packages("pak")
+pak::pak("YuLab-SMU/aisdk.providers")
 ```
 
 ## Usage
